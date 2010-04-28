@@ -1,11 +1,11 @@
 from base import *
 
 DATABASE_HOST = ''
-DATABASE_NAME = ''
-DATABASE_USER = ''
+DATABASE_NAME = 'zoo_prod'
+DATABASE_USER = 'zoo'
 DATABASE_PASSWORD = ''
 
-MEDIA_URL = 'YOUR MEDIA URL'
+MEDIA_URL = '/media/'
 
 SSL_ENABLED = True
 SEND_BROKEN_LINK_EMAILS = True

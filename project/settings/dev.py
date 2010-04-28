@@ -3,8 +3,8 @@ from base import *
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-DATABASE_NAME = ''
-DATABASE_USER = ''
+DATABASE_NAME = 'zoo_dev'
+DATABASE_USER = 'zoo_dev'
 # DATABASE_PASSWORD = ''
 
 # Settings if using sqlite
