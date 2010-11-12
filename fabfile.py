@@ -25,7 +25,7 @@ NGINX = NginxServer(sites=['django_site'])
 # with a postgres DB backend.
 # Update the IP/Hostname to match your server
 MACHINES = Machines([
-    Machine('173.203.82.48', ENVIRONMENTS['production'], 
+    Machine('173.203.81.170', ENVIRONMENTS['production'], 
         short_name="prod", servers=[POSTGRES, APACHE, NGINX]),
 
 #   Uncomment the following lines for a matching staging server
